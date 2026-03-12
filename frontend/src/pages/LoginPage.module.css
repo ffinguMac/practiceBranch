@@ -36,6 +36,16 @@
   gap: 1rem;
 }
 
+.success {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-success);
+  background: #f0fdf4;
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  margin-bottom: 0.5rem;
+}
+
 .error {
   font-size: 0.875rem;
   color: var(--color-danger);
