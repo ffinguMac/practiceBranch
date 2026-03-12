@@ -37,3 +37,16 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+#root {
+  min-height: 100vh;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
+}

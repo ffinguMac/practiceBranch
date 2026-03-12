@@ -4,9 +4,16 @@
   flex-direction: column;
 }
 
+.body {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
 .main {
   flex: 1;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem;
+  overflow-y: auto;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
