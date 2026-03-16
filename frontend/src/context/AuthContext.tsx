@@ -43,9 +43,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     fetchUser();
   }, [fetchUser]);
 
-  const login = (token: string) => {
+  const login = async (token: string) => {
     localStorage.setItem('accessToken', token);
-    fetchUser();
+    await fetchUser();
   };
 
   const logout = () => {

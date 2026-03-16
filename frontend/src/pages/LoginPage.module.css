@@ -46,6 +46,19 @@
   margin-bottom: 0.5rem;
 }
 
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+
+.checkbox input {
+  cursor: pointer;
+}
+
 .error {
   font-size: 0.875rem;
   color: var(--color-danger);
